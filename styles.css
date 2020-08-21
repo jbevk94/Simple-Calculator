@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: black;
@@ -95,4 +96,11 @@ button:nth-child(20){
     font-size: 20px;
     background-color: pink;
 }
+
+@media only screen and (max-width: 400px) {
+    #container {
+      width: 90%;
+      height:600px;
+    }
+    
 
